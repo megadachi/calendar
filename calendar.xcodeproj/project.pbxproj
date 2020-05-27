@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C28B9D8247D05FB00C86138 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C28B9D7247D05FB00C86138 /* CameraViewController.swift */; };
+		0C4208A7247124CE008B6937 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4208A6247124CE008B6937 /* MonthView.swift */; };
+		0C4208A924712596008B6937 /* MonthViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4208A824712596008B6937 /* MonthViewCell.swift */; };
 		0CB048BE246E709E001EC9F8 /* WeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB048BD246E709E001EC9F8 /* WeekCell.swift */; };
 		0CB321662468E021007E2A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB321652468E021007E2A8C /* AppDelegate.swift */; };
 		0CB321682468E021007E2A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB321672468E021007E2A8C /* SceneDelegate.swift */; };
@@ -14,9 +17,14 @@
 		0CB3216D2468E021007E2A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3216B2468E021007E2A8C /* Main.storyboard */; };
 		0CB3216F2468E022007E2A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3216E2468E022007E2A8C /* Assets.xcassets */; };
 		0CB321722468E022007E2A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB321702468E022007E2A8C /* LaunchScreen.storyboard */; };
+		0CE25DA2247BCA6900F47DCA /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE25DA1247BCA6900F47DCA /* DayViewController.swift */; };
+		0CEC4E56246FEA6100F77C11 /* MonthScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC4E55246FEA6100F77C11 /* MonthScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C28B9D7247D05FB00C86138 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0C4208A6247124CE008B6937 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		0C4208A824712596008B6937 /* MonthViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewCell.swift; sourceTree = "<group>"; };
 		0CB048BD246E709E001EC9F8 /* WeekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCell.swift; sourceTree = "<group>"; };
 		0CB321622468E021007E2A8C /* calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB321652468E021007E2A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		0CB3216E2468E022007E2A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB321712468E022007E2A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CB321732468E022007E2A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE25DA1247BCA6900F47DCA /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		0CEC4E55246FEA6100F77C11 /* MonthScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +71,13 @@
 				0CB321652468E021007E2A8C /* AppDelegate.swift */,
 				0CB321672468E021007E2A8C /* SceneDelegate.swift */,
 				0CB3216B2468E021007E2A8C /* Main.storyboard */,
+				0C28B9D7247D05FB00C86138 /* CameraViewController.swift */,
+				0CE25DA1247BCA6900F47DCA /* DayViewController.swift */,
 				0CB321692468E021007E2A8C /* ViewController.swift */,
 				0CB048BD246E709E001EC9F8 /* WeekCell.swift */,
+				0CEC4E55246FEA6100F77C11 /* MonthScrollView.swift */,
+				0C4208A6247124CE008B6937 /* MonthView.swift */,
+				0C4208A824712596008B6937 /* MonthViewCell.swift */,
 				0CB3216E2468E022007E2A8C /* Assets.xcassets */,
 				0CB321702468E022007E2A8C /* LaunchScreen.storyboard */,
 				0CB321732468E022007E2A8C /* Info.plist */,
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB3216A2468E021007E2A8C /* ViewController.swift in Sources */,
+				0C4208A7247124CE008B6937 /* MonthView.swift in Sources */,
+				0C4208A924712596008B6937 /* MonthViewCell.swift in Sources */,
 				0CB048BE246E709E001EC9F8 /* WeekCell.swift in Sources */,
 				0CB321662468E021007E2A8C /* AppDelegate.swift in Sources */,
+				0CEC4E56246FEA6100F77C11 /* MonthScrollView.swift in Sources */,
 				0CB321682468E021007E2A8C /* SceneDelegate.swift in Sources */,
+				0CE25DA2247BCA6900F47DCA /* DayViewController.swift in Sources */,
+				0C28B9D8247D05FB00C86138 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9563Z796ZF;
 				INFOPLIST_FILE = calendar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9563Z796ZF;
 				INFOPLIST_FILE = calendar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

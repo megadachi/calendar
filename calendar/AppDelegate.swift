@@ -10,11 +10,19 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+//    var window: UIWindow?
+    
+    // 選択された日 キャプション表示に使う
+    var selectedDay = Date()
+    // 表示月の初日 タイトルラベルに使う
+    var firstDay = Date()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.rootViewController = ViewController()
+//        self.window?.makeKeyAndVisible()
         // ナビゲーションバーの色指定
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.5, green: 0.8090446002, blue: 0.9884150257, alpha: 1)
         UINavigationBar.appearance().titleTextAttributes = [
